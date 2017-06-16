@@ -19,7 +19,7 @@ from vox import cli
 
 class Test_vox(unittest.TestCase):
 
-	# TODO: More tests
+	# TODO: More tests needed
 
 	def test_command_line_interface(self):
 		target_string = '--help  Show this message and exit.'
