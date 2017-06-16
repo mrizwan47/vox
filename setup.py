@@ -15,10 +15,7 @@ requirements = [
     'pygame'
 ]
 
-test_requirements = [
-	'tox',
-	'flake8'
-]
+test_requirements = []
 
 setup(
     name='vox',
