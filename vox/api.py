@@ -9,7 +9,7 @@ class vox:
 		self.text			=	text
 		self.voice_cache	=	"cache/voices/"
 		self.voice_fname	=	"cache/voices/" + text + ".mp3"
-		self.lang			=	'en'
+		self.lang			=	lang
 
 		if not os.path.exists( self.voice_cache ):
 			os.makedirs( self.voice_cache )
