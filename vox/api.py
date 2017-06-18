@@ -40,6 +40,13 @@ class vox:
 
 		return os.path.isfile( self.voice_fname )
 
+	def remove_cache( self ):
+
+		if( self.voice_exists() ):
+			os.remove( self.voice_fname )
+
+		return True
+
 def say( text, lang="en" ):
 
 	gg		=	vox( text, lang )
