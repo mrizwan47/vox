@@ -23,17 +23,19 @@ $ pip3 install git+https://github.com/mrizwan47/vox
 
 #### Command-Line Interface
 
-When you install `vox`, you get a simple command-line program
-called `vox` that you can use to make your program say the text.
+~~When you install `vox`, you get a simple command-line program
+called `vox` that you can use to make your program say the text.~~
+
+I'm new to Python and it's currently working by initiating `python -m`:
 
 ```bash
-$ vox "hello world"
+$ python -m vox "hello world"
 ```
 
-Also, there's a `language` argument
+Also, there's a second argument for language
 
 ```bash
-$ vox "Hola Mundo" --language es
+$ python -m vox "Hola Mundo" es
 ```
 
 #### Python Module
